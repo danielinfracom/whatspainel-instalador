@@ -118,7 +118,6 @@ backend_node_build() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/${instancia_add}/backend
-  npm install @adiwajshing/baileys@5.0.0  
   npm run build
 EOF
 
